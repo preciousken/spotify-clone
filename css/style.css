@@ -70,14 +70,17 @@ section {
   flex-direction: column;
   height: 100%;
   border-radius: 10px 10px 0 0;
-  background-image: linear-gradient(
-    to left top,
-    #000000,
-    #000000,
-    #4c3798,
+  background: #624bb9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
     #624bb9,
-    #040015
-  );
+    #7e838e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #624bb9,
+    #7e838e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 section div {
@@ -154,8 +157,8 @@ section div ul li:nth-child(2) {
   color: #fff;
 }
 .icons_ > button:nth-child(1) {
-  padding: 2px 5px;
-  border-radius: 5px;
+  padding: 4px 7px;
+  border-radius: 10px;
 }
 
 .icons_ > button:not(:nth-child(1)) {
@@ -169,4 +172,8 @@ section div ul li:nth-child(2) {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+
+button {
+  cursor: pointer;
 }
