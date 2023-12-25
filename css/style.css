@@ -122,6 +122,12 @@ ul {
 aside > .container {
   padding: 0 !important;
 }
+aside > .container > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
 .prevnext_icon > * {
   background-color: #000000;
