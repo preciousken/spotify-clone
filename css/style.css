@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Roboto:wght@300;400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Roboto:wght@300;400;500&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  /* border: 1px solid red; */
+  height: 100vh;
+  display: flex;
+  flex-grow: 1;
+  background-color: #000000;
+  padding: 5px;
+  gap: 5px;
+  font-family: "Inter", sans-serif;
+}
+/* ///////////////// ASIDE */
+aside {
+  /* border: 1px solid green; */
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 5px;
+}
+aside div {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+}
+aside div ul {
+  /* border: 1px solid yellow; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100%; */
+  gap: 15px;
+}
+aside div ul li {
+  /* background-color: red; */
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+aside div:nth-child(1) {
+  max-height: 80px;
+}
+
+/* /////////////////// SECTION */
+section {
+  /* border: 1px solid purple; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  background-image: linear-gradient(
+    to left top,
+    #000000,
+    #000000,
+    #4c3798,
+    #624bb9,
+    #040015
+  );
+}
+
+section div {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+  color: #fff;
+  padding: 8px 12px;
+  /* border-radius: 8px; */
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+}
+section div:nth-child(1) {
+  max-height: 80px;
+  border-radius: 10px 10px 0 0;
+  background-color: transparent;
+}
+
+section div:nth-child(2) {
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.prevnext_icon > * {
+  background-color: #000000;
+  color: rgb(190, 185, 185);
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 50% 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section div ul {
+  /* border: 1px solid yellow; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100%; */
+  gap: 15px;
+}
+section div ul li {
+  /* background-color: red; */
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+section div ul li:nth-child(2) {
+  font-size: 1.2rem;
+}
+button {
+  cursor: pointer;
+}
