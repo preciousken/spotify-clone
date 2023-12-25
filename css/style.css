@@ -11,6 +11,10 @@ font-family: 'Roboto', sans-serif; */
   box-sizing: border-box;
 }
 
+.test {
+  border: 1px solid red;
+}
+
 main {
   /* border: 1px solid red; */
   height: 100vh;
@@ -61,6 +65,15 @@ aside div ul li {
 aside div:nth-child(1) {
   max-height: 80px;
 }
+aside div:nth-child(2) {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+aside div:nth-child(2) > div {
+  /* border: 1px solid red; */
+  width: 100%;
+}
 
 /* /////////////////// SECTION */
 section {
@@ -105,6 +118,9 @@ section div:nth-child(2) {
 
 ul {
   list-style-type: none;
+}
+aside > .container {
+  padding: 0 !important;
 }
 
 .prevnext_icon > * {
