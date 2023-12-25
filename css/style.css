@@ -128,6 +128,14 @@ aside > .container > div {
   align-items: flex-start;
   flex-direction: column;
 }
+aside > .container > div:nth-child(1) {
+  border-radius: 10px 10px 0 0;
+  background-color: red;
+}
+aside > .container > div:nth-child(2) {
+  background-color: green;
+  border-radius: 0;
+}
 
 .prevnext_icon > * {
   background-color: #000000;
