@@ -137,6 +137,36 @@ section div ul li {
 section div ul li:nth-child(2) {
   font-size: 1.2rem;
 }
-button {
+.icons > button {
   cursor: pointer;
+  background-color: #00000084;
+  color: #ffffff41;
+  padding: 7px 9px;
+  border-radius: 50%;
+  font-size: 0.5rem;
+  border: none;
+}
+
+.icons_ > button {
+  font-size: 0.7rem;
+  border: none;
+  background-color: #00000084;
+  color: #fff;
+}
+.icons_ > button:nth-child(1) {
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.icons_ > button:not(:nth-child(1)) {
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+
+.prevnext {
+  /* background-color: red !important; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
